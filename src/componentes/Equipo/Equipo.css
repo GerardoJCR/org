@@ -1,0 +1,30 @@
+.container-equipo{
+    width: 100%;
+    /* background-color: #D9F7E9; */
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.container-equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid ;
+    display: inline-block;
+    font-family: Prata;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
